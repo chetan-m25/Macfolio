@@ -4,9 +4,6 @@ import "./dock.scss";
 const Dock = () => {
   return (
     <footer className="dock">
-      <div className="icon github">
-        <img src="/public/doc-icons/github.svg" alt="" />
-      </div>
       <div className="icon calender">
         <img src="/public/doc-icons/calender.svg" alt="" />
       </div>
@@ -25,11 +22,14 @@ const Dock = () => {
       <div className="icon spotify">
         <img src="/public/doc-icons/spotify.svg" alt="" />
       </div>
-      <div className="icon linkedin">
-        <img src="/public/doc-icons/linkedin.svg" alt="" />
-      </div>
       <div className="icon pdf">
         <img src="/public/doc-icons/pdf.svg" alt="" />
+      </div>
+      <div className="icon github">
+        <img src="/public/doc-icons/github.svg" alt="" />
+      </div>
+      <div className="icon linkedin">
+        <img src="/public/doc-icons/linkedin.svg" alt="" />
       </div>
     </footer>
   );
