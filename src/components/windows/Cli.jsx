@@ -3,9 +3,9 @@ import MackWindow from "./MacWindow";
 import Terminal from "react-console-emulator";
 import "./cli.scss";
 
-const Cli = () => {
+const Cli = ({ windowName, setWindowsState }) => {
   return (
-    <MackWindow>
+    <MackWindow windowName={windowName} setWindowsState={setWindowsState}>
       <div className="cli-window">
         <Terminal
           commands={{
